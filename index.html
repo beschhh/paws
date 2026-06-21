@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лапки</title>
+    <link rel="icon" href="assets/images/favicon.png" type="image/png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header header-pink-white">
+        <span class="header_logo">лапки</span>
+        <button class="burger" aria-label="Меню"><span></span><span></span><span></span></button>
+        <nav class="header_nav">
+            <a href="index.html" class="nav_link nav_link-active">главная</a>
+            <a href="menu.html" class="nav_link">меню</a>
+            <a href="guide.html" class="nav_link">гайд</a>
+            <a href="merch.html" class="nav_link">мерч</a>
+            <a href="about.html" class="nav_link">о нас</a>
+        </nav>
+    </header>
+
+    <main class="main-page" style="background-image: url('assets/images/фон главная .png');">
+        <div class="main-content">
+            <section class="hero" id="screen1">
+                <div class="hero_left">
+                    <img src="assets/images/first.png" class="hero_photo">
+                </div>
+                <div class="hero_right">
+                    <h1 class="hero_title">Кафе для людей<br>и их собачек</h1>
+                    <p class="hero_desc">«Лапки» — это уютное кафе, где рады и людям, и их хвостатым друзьям. У нас можно вкусно поесть и приятно провести время</p>
+                    <a href="#booking" class="btn-book">Забронировать стол <img src="assets/images/paaws.png" class="btn_paw"></a>
+                </div>
+            </section>
+
+            <section class="activities">
+                <div class="act-grid">
+                    <div class="act-col act-col-left">
+                        <img src="assets/images/33.png" class="act-img">
+                        <img src="assets/images/11.png" class="act-img">
+                    </div>
+                    <div class="act-col act-col-center">
+                        <h2 class="act-title">в лапках<br>можно:</h2>
+                        <img src="assets/images/Frame 45.png" class="act-img act-img-center">
+                    </div>
+                    <div class="act-col act-col-right">
+                        <img src="assets/images/44.png" class="act-img">
+                        <img src="assets/images/55.png" class="act-img">
+                    </div>
+                </div>
+            </section>
+
+            <section class="booking" id="booking">
+                <h2 class="booking_title">Бронь столика</h2>
+                <form class="booking_form">
+                    <div class="booking_row">
+                        <div class="booking_field">
+                            <label class="booking_label">Имя</label>
+                            <input type="text" class="booking_input" placeholder="Иван Иванов">
+                        </div>
+                        <div class="booking_field">
+                            <label class="booking_label">Дата визита</label>
+                            <input type="text" class="booking_input" placeholder="13.06.2026">
+                        </div>
+                    </div>
+                    <div class="booking_row">
+                        <div class="booking_field">
+                            <label class="booking_label">Количество человек</label>
+                            <div class="booking_counter">
+                                <button type="button" class="counter_btn" data-action="plus" data-target="people">+</button>
+                                <input type="text" class="counter_input" id="people-count" value="" readonly>
+                                <button type="button" class="counter_btn" data-action="minus" data-target="people">—</button>
+                            </div>
+                        </div>
+                        <div class="booking_field">
+                            <label class="booking_label">Количество песиков</label>
+                            <div class="booking_counter">
+                                <button type="button" class="counter_btn" data-action="plus" data-target="dogs">+</button>
+                                <input type="text" class="counter_input" id="dogs-count" value="" readonly>
+                                <button type="button" class="counter_btn" data-action="minus" data-target="dogs">—</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="booking_row">
+                        <div class="booking_field">
+                            <label class="booking_label">Номер телефона</label>
+                            <input type="tel" class="booking_input" placeholder="89260787250">
+                            
+                        </div>
+                        <div class="booking_field">
+                            <label class="booking_label">Комментарий к брони</label>
+                            <input type="text" class="booking_input">
+                        </div>
+                    </div>
+                    <div class="booking_submit-wrap">
+                        <button type="button" class="btn-green">Забронировать</button>
+                    </div>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer_inner">
+            <img src="assets/images/logo.png" class="footer_logo-img">
+            <div class="footer_right">
+                <div class="footer_row">
+                    <span>телефон: 89260787250</span>
+                    <span>адрес: Тверская 8</span>
+                </div>
+                <div class="footer_row">
+                    <span>жалобы и предложения:<br>pawss@mail.ru</span>
+                    <img src="assets/images/net.png" class="footer_socials">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>

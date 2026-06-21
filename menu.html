@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лапки</title>
+    <link rel="icon" href="assets/images/favicon.png" type="image/png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header header-beige-pink">
+        <span class="header_logo">лапки</span>
+        <button class="burger" aria-label="Меню"><span></span><span></span><span></span></button>
+        <nav class="header_nav">
+            <a href="index.html" class="nav_link">главная</a>
+            <a href="menu.html" class="nav_link nav_link-active">меню</a>
+            <a href="guide.html" class="nav_link">гайд</a>
+            <a href="merch.html" class="nav_link">мерч</a>
+            <a href="about.html" class="nav_link">о нас</a>
+        </nav>
+    </header>
+
+    <main class="menu-page" id="menu-bg">
+        <div class="menu-header">
+            <img src="assets/images/logo.png" class="menu-header_logo">
+            <h1 class="menu-header_title">Меню</h1>
+            <div class="menu-tabs">
+                <button class="menu-tab menu-tab-active" data-tab="people">для людей</button>
+                <button class="menu-tab" data-tab="dogs">для песиков</button>
+            </div>
+        </div>
+        <div class="menu-waves-wrap" style="background-image: url('assets/images/люди.png');" id="menu-waves">
+        <div class="menu-content-wrap">
+
+            <div class="menu-content menu-content-active" id="menu-people">
+                <div class="menu-card">
+<h3 class="menu-category">Завтраки</h3>
+                    <div class="menu-item"><div class="menu-item_info"><span class="menu-item_name">Сырники "Доброе утро"</span><span class="menu-item_desc">Сырники со сметаной, ягодами и медом.</span></div><span class="menu-item_price">470 руб</span></div>
+                    <div class="menu-item"><div class="menu-item_info"><span class="menu-item_name">Омлет с индейкой и сыром</span><span class="menu-item_desc">Нежный омлет с индейкой, зеленью и тостом.</span></div><span class="menu-item_price">620 руб</span></div>
+                    <div class="menu-item"><div class="menu-item_info"><span class="menu-item_name">Боул "Спокойное утро"</span><span class="menu-item_desc">Гречка/рис, яйцо, авокадо, овощи, соус на выбор.</span></div><span class="menu-item_price">550 руб</span></div>
+                    <div class="menu-item"><div class="menu-item_info"><span class="menu-item_name">Тост с лососем</span><span class="menu-item_desc">Хрустящий хлеб, творожный сыр, слабосоленый лосось, огурец</span></div><span class="menu-item_price">800 руб</span></div>
+
+                    <h3 class="menu-category">Основные блюда</h3>
+                    <div class="menu-item"><div class="menu-item_info"><span class="menu-item_name">Паста с курицей и сливочным соусом</span><span class="menu-item_desc">Курица, паста, сливочный соус, пармезан</span></div><span class="menu-item_price">650 руб</span></div>
+                    <div class="menu-item"><div class="menu-item_info"><span class="menu-item_name">Куриный суп "Домашний"</span><span class="menu-item_desc">Бульон, курица, овощи, зелень.</span></div><span class="menu-item_price">350 руб</span></div>
+                    <div class="menu-item"><div class="menu-item_info"><span class="menu-item_name">Боул с лососем</span><span class="menu-item_desc">Рис, лосось, овощи, соус, кунжут.</span></div><span class="menu-item_price">850 руб</span></div>
+                    <div class="menu-item"><div class="menu-item_info"><span class="menu-item_name">Мини-бургеры "Лапки"</span><span class="menu-item_desc">Три бургера с курицей/говядиной и картофелем фри.</span></div><span class="menu-item_price">620 руб</span></div>
+
+                    <h3 class="menu-category">Напитки</h3>
+                    <div class="menu-item"><div class="menu-item_info"><span class="menu-item_name">Капучино</span></div><span class="menu-item_price">400 руб</span></div>
+                    <div class="menu-item"><div class="menu-item_info"><span class="menu-item_name">Латте</span></div><span class="menu-item_price">400 руб</span></div>
+                    <div class="menu-item"><div class="menu-item_info"><span class="menu-item_name">Американо</span></div><span class="menu-item_price">300 руб</span></div>
+                    <div class="menu-item"><div class="menu-item_info"><span class="menu-item_name">Раф</span></div><span class="menu-item_price">450 руб</span></div>
+                    <div class="menu-item"><div class="menu-item_info"><span class="menu-item_name">Матча латте</span></div><span class="menu-item_price">450 руб</span></div>
+                    <div class="menu-item"><div class="menu-item_info"><span class="menu-item_name">Какао с маршмеллоу</span></div><span class="menu-item_price">450 руб</span></div>
+                    <div class="menu-item"><div class="menu-item_info"><span class="menu-item_name">Лимонад "Хвост трубой"</span><span class="menu-item_desc">Домашний лимонад с ягодами/цитрусом.</span></div><span class="menu-item_price">420 руб</span></div>
+                    <div class="menu-item"><div class="menu-item_info"><span class="menu-item_name">Чай "После прогулки"</span><span class="menu-item_desc">Травяной чай с медом и лимоном.</span></div><span class="menu-item_price">300 руб</span></div>
+
+                    <h3 class="menu-category">Десерты</h3>
+                    <div class="menu-item"><div class="menu-item_info"><span class="menu-item_name">Ягодный чизкейк</span><span class="menu-item_desc">Классический чизкейк с ягодами.</span></div><span class="menu-item_price">570 руб</span></div>
+                    <div class="menu-item"><div class="menu-item_info"><span class="menu-item_name">Печенье "След лапки"</span><span class="menu-item_desc">Фирменное печенье в форме лапки.</span></div><span class="menu-item_price">300 руб</span></div>
+                    <div class="menu-item"><div class="menu-item_info"><span class="menu-item_name">Морковный торт</span><span class="menu-item_desc">Нежный торт с кремом.</span></div><span class="menu-item_price">600 руб</span></div>
+                    <div class="menu-item"><div class="menu-item_info"><span class="menu-item_name">Брауни</span><span class="menu-item_desc">Шоколадный десерт.</span></div><span class="menu-item_price">470 руб</span></div>
+                </div>
+            </div>
+
+            <div class="menu-content" id="menu-dogs">
+                <div class="menu-card">
+<h3 class="menu-category">Основные блюда</h3>
+                    <div class="menu-item"><div class="menu-item_info"><span class="menu-item_name">Боул "Счастливый хвост"</span><span class="menu-item_desc">Индейка, рис, морковь, кабачок.</span></div><span class="menu-item_price">380 руб</span></div>
+                    <div class="menu-item"><div class="menu-item_info"><span class="menu-item_name">Боул "Гав-гурман"</span><span class="menu-item_desc">Говядина, гречка, тыква, немного зелени.</span></div><span class="menu-item_price">380 руб</span></div>
+                    <div class="menu-item"><div class="menu-item_info"><span class="menu-item_name">Рыбный боул "Мокрый нос"</span><span class="menu-item_desc">Лосось, рис, кабачок.</span></div><span class="menu-item_price">450 руб</span></div>
+                    <div class="menu-item"><div class="menu-item_info"><span class="menu-item_name">Мини-стейк для хвостика</span><span class="menu-item_desc">Нежная говядина с овощным пюре.</span></div><span class="menu-item_price">450 руб</span></div>
+
+                    <h3 class="menu-category">Легкие перекусы</h3>
+                    <div class="menu-item"><div class="menu-item_info"><span class="menu-item_name">Печенье "Хрум-лапка"</span><span class="menu-item_desc">Печенье из овсянки и банана.</span></div><span class="menu-item_price">320 руб</span></div>
+                    <div class="menu-item"><div class="menu-item_info"><span class="menu-item_name">Морковные палочки</span><span class="menu-item_desc">Полезный хрустящий перекус.</span></div><span class="menu-item_price">150 руб</span></div>
+                    <div class="menu-item"><div class="menu-item_info"><span class="menu-item_name">Куриные кусочки</span><span class="menu-item_desc">Небольшие кусочки отварной курицы.</span></div><span class="menu-item_price">200 руб</span></div>
+                    <div class="menu-item"><div class="menu-item_info"><span class="menu-item_name">Тыквенные кубики</span><span class="menu-item_desc">Мягкие кусочки тыквы.</span></div><span class="menu-item_price">200 руб</span></div>
+
+                    <h3 class="menu-category">Напитки</h3>
+                    <div class="menu-item"><div class="menu-item_info"><span class="menu-item_name">Вода "Свежая миска"</span></div><span class="menu-item_price">бесплатно</span></div>
+                    <div class="menu-item"><div class="menu-item_info"><span class="menu-item_name">Кефирчик</span></div><span class="menu-item_price">50 руб</span></div>
+                    <div class="menu-item"><div class="menu-item_info"><span class="menu-item_name">Бульон "После прогулки"</span><span class="menu-item_desc">Легкий куриный бульон без соли и специй.</span></div><span class="menu-item_price">200 руб</span></div>
+
+                    <h3 class="menu-category">Десерты</h3>
+                    <div class="menu-item"><div class="menu-item_info"><span class="menu-item_name">Пупкейк</span><span class="menu-item_desc">Мини-кекс для собак на основе овсянки.</span></div><span class="menu-item_price">200 руб</span></div>
+                    <div class="menu-item"><div class="menu-item_info"><span class="menu-item_name">Мороженое "Холодный нос"</span><span class="menu-item_desc">Йогурт с бананом.</span></div><span class="menu-item_price">200 руб</span></div>
+                    <div class="menu-item"><div class="menu-item_info"><span class="menu-item_name">Творожок "Умная лапка"</span><span class="menu-item_desc">Нежный творог без сахара с ягодой/бананом.</span></div><span class="menu-item_price">200 руб</span></div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer_inner">
+            <img src="assets/images/logo.png" class="footer_logo-img">
+            <div class="footer_right">
+                <div class="footer_row">
+                    <span>телефон: 89260787250</span>
+                    <span>адрес: Тверская 8</span>
+                </div>
+                <div class="footer_row">
+                    <span>жалобы и предложения:<br>pawss@mail.ru</span>
+                    <img src="assets/images/net.png" class="footer_socials">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>
