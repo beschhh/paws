@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Bounded';
+    src: url('../assets/fonts/Bounded-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Apple Garamond';
+    src: url('../assets/fonts/applegaramondcyr_regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
